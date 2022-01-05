@@ -1,7 +1,7 @@
 # Let's Toggle
 
 ### Introduction
-Ce projet a pour objectif de vous aider à prendre en main le framework Arduino puis ESP-IDF pour le SoC WIFI ESP32 d'Espressif.
+CE projet a pour objectif de vous aider à prendre en main le framework Arduino puis ESP-IDF pour le SoC WIFI ESP32 d'Espressif.
 
 ### Prérequis
 1. Avoir un binôme
