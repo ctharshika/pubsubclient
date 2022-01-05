@@ -45,7 +45,12 @@ Votre code devra :
 **Bonus** : Utiliser une interruption pour detecter l'appui sur le bouton
 
 ### Instructions
-1. Ajouter un clé SSH à votre compte Gitlab => [Aide disponible ici](https://gitlab.com/help/ssh/README#generating-a-new-ssh-key-pair)
+1. Ajouter un clé SSH à votre compte Gitlab => [Aide disponible ici](https://gitlab.com/help/ssh/README#generating-a-new-ssh-key-pair) ou [ici](https://docs.microsoft.com/fr-fr/windows-server/administration/openssh/openssh_keymanagement)
+- (Windows) Ouvrir l'invite de commande et taper ssh-keygen -t ed25519
+- Enregister la clé où vous voulez (attention vous aurez besoin de re-utiliser cette clé)
+- Faire "edit profil" dans l'onglet en haut a droite de votre écran
+- Cliquez sur l'onglet "SSH KEYS"
+- Copier coller votre clé publique (id_ed25519.pub ou de type Microsoft publisher document) en ouvrant avec bloc-notes
    
 2. Cloner le projet `git clone git@gitlab.com:OCRES_PP/2019_2020/b<N>/toggle.git` (remplacer `<N>` par votre numéro de binôme)
    
