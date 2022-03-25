@@ -43,5 +43,4 @@ void button_long_press_cb()
     oled_clear();
     oled_print("Long press");
     led_set_blink(500,6300); 
-
 }
