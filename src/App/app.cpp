@@ -35,7 +35,7 @@ void button_released_cb(uint8_t click_count)
      oled_print(String(variable));
      led_set_blink(1000);
  }
-
+ 
 }
 
 void button_long_press_cb()
