@@ -8,6 +8,7 @@ int variable=0;
 void app_init()
 {
     led_set(1);
+    //bojour
 
 }
 
