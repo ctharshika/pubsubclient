@@ -8,7 +8,6 @@ int variable=0;
 void app_init()
 {
     led_set(1);
-    //bojour
 
 }
 
@@ -16,7 +15,7 @@ void app_init()
 
 void app_process()
 {
-
+ 
 }
 
 void button_press_cb(uint8_t click_count)
