@@ -87,3 +87,4 @@ uint8_t software_timer_expired(software_timer_t *t)
 
 	return result;
 }
+
